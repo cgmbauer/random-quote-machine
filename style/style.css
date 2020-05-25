@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 * {
   margin: 0;
@@ -61,9 +61,23 @@ h3 {
   width: fit-content;
 }
 
-.buttonColor {
+.buttonStyle {
   background-color: var(--secondaryBColorLight);
-  color: #000000;
+  color: #ffffff;
   border: none;
   font-family: 'Poppins';
+  font-weight: 500;
 }
+
+.buttonSpace {
+  margin-right: 25px;
+}
+
+.fab {
+  font-size: 18px;
+  border: 1px solid var(--secondaryBColorLight);
+  border-radius: 3px;
+  padding: 4px;
+  color: var(--secondaryBColorLight)
+}
+
