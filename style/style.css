@@ -7,7 +7,6 @@
   --primaryBColor: #7c1fa3;
   --secondaryBColorDark: #4a0072;
   --secondaryBColorLight: #af52d5;
-
 }
 
 body {
@@ -67,6 +66,13 @@ h3 {
   border: none;
   font-family: 'Poppins';
   font-weight: 500;
+  transition: 0.4s opacity;
+  margin-bottom: 3px;
+}
+
+.buttonStyle:hover {
+  opacity: 0.8;
+  background-color: var(--secondaryBColorLight);
 }
 
 .buttonSpace {
@@ -78,6 +84,11 @@ h3 {
   border: 1px solid var(--secondaryBColorLight);
   border-radius: 3px;
   padding: 4px;
-  color: var(--secondaryBColorLight)
+  color: var(--secondaryBColorLight);
+  transition: 0.4s opacity;
+}
+
+.fab:hover {
+  opacity: 0.8;
 }
 
