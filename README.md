@@ -3,13 +3,14 @@
 This is a project made for the freeCodeCamp's Front End Libraries Projects.
 
 
-### Built With
+## Built With
+
 
 - [BootStrap v- 4.5.0](https://getbootstrap.com/)
 - Vanilla JS
 
 
-### User Story
+## User Story
 
 - I can see a wrapper element with a corresponding id="quote-box".
 
@@ -33,8 +34,12 @@ This is a project made for the freeCodeCamp's Front End Libraries Projects.
 
 - The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
-### Note
+## Acknowledgments
+
+- [freeCodeCamp](https://www.freecodecamp.org/), big thanks!
 
 - The quotes were taken from [here](https://blog.hubspot.com/sales/famous-quotes). Thanks!
 
 - Thanks again, [Font Awesome](https://fontawesome.com/) and [Google Fonts](https://fonts.google.com/)
+
+
